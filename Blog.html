@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="Home.html"><img src="images/logo.jpeg" alt="logo" style="height: 40px; width: 40px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+
+       <h1>Our certificate corses for 2024</h1>
+
+    </section>
+
+    <!----blog page content---->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/Blog1.jpg" alt="" class="">
+            <h2>Our certificate corses for 2024</h2>
+            <p>The Centre for Research and Knowledge Dissemination (CRKD) of Sabaragamuwa University of Sri Lanka is planning to hold the 9th edition of its biennial International Conference (9th International Conference of Sabaragamuwa University of Sri Lanka - ICSUSL 2023) on 6-8 December 2023 under the theme of "Advancing Multidisciplinary Approaches for a Sustainable and Resilient Future".</p>
+            <br>
+            <p>With the rising energy prices and inflation across the globe, declining food supply, soaring world population, unwarranted political conflicts, culture wars, and major environmental challenges, we are at the crossroads. The present demands actions to reverse course and find sustainable solutions to save humanity and nature from the brink of total collapse. With eight tracks, the ICSUSL 2023 yields a platform for scholars and scientific minds worldwide to create global partnerships to achieve the Sustainable Development Goals set by the United Nations and lead the movement by advancing multidisciplinary approaches for a sustainable and resilient future</p>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+    
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post comment</button>
+                </form>
+            </div>
+
+        </div>
+
+        
+        <div class="blog-right">
+            <h3>Degree categeries</h3>
+            <div>
+                <span>omputing & information systems</span>
+                <span>4 year</span>
+            </div>
+            <div>
+                <span>Data science</span>
+                <span>4 year</span>
+            </div>
+            <div>
+                <span>Software Engineering</span>
+                <span>4 year</span>
+            </div>
+            <div>
+                <span>Agricultural Science</span>
+                <span>4 year</span>
+            </div>
+            <div>
+                <span>Medicine</span>
+                <span>4 year</span>
+            </div>
+            <div>
+                <span>Geomatics</span>
+                <span>4 year</span>
+            </div>
+            <div>
+                <span>Social Science</span>
+                <span>4 year</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+<!--Footer---->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The Sabaragamuwa University of Sri Lanka (SUSL) now stands as the present-day link tradition of knowledge and wisdom, which is the 12th national university of contemporary Sri Lanka.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i> <!-- Use 'fab' for brand icons -->
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>&copy; 2020, All rights reserved by Sabaragamuwa University of Sri Lanka</p> <!-- Use 'far' for regular heart icon -->
+</section> 
+
+
+
+<!-------JavaScript for toggle menu------>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+function ShowMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px"
+}
+
+    </script>
+
+</body>
+</html>
